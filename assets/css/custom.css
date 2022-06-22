@@ -41,4 +41,6 @@
 }
 #two .bio_content .badge {
     float:right;
+    margin-top: 50px;
+    margin-left: 15px;
 }
