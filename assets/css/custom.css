@@ -5,10 +5,7 @@
 .social_icon {
     margin-top: 10px;
 }
-.custom {
-    display:flex;
-    justify-content:space-around;
-}
+
 .link2_icon {
     margin-left: 45px;
 }
@@ -18,15 +15,30 @@
 #banner:after {
     opacity: .55;
 }
-#two .inner {
-    display:flex;
-}
-#two .inner img {
+#two .bio_content .headshot {
+    height: 266px;
     width: 200px;
+    margin-right: 20px;
+    float: left;
+
 }
 .bio {
     font-size: smaller;
 }
 #main > * > .inner {
     padding: 2em 0 2em 0;
+}
+@media screen and (min-width:500px){
+    .custom {
+        display:flex;
+        justify-content:space-around;
+    }
+}
+@media screen and (max-width:500px){
+    .custom {
+        margin-left: 20px;
+    }
+}
+#two .bio_content .badge {
+    float:right;
 }
